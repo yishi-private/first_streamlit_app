@@ -26,6 +26,8 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 # streamlit.text(fruityvice_response.json())  #just writes the data to the screen
 
+streamlit.header('Fruityvice Fruit Advice!')
+
 # json形式をノーマライズ化
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # テーブル形式で表示
