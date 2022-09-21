@@ -44,9 +44,9 @@ streamlit.write('The user entered ', fruit_choice)
 # streamlit.text(fruityvice_response.json())  #just writes the data to the screen
 
 # json形式をノーマライズ化
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+# fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # テーブル形式で表示
-streamlit.dataframe(fruityvice_normalized)
+# streamlit.dataframe(fruityvice_normalized)
 # import snowflake.connector
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
