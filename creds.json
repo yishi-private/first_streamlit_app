@@ -1,0 +1,9 @@
+{
+  "account": "jp_demo12",
+      "user": "John",
+      "password": "Snowjapan123",
+      "role": "dba_citibike",
+      "warehouse": "ML_WH",
+      "database": "CITIBIKE",
+      "schema": "demo"
+}
